@@ -5,7 +5,7 @@ const app = express();
 
 const users = ["Adam", "Beth", "Cecil"];
 
-//po / oczekuje wpisania dlaszej ścieżki
+//po / oczekuje wpisania dlaszej ścieżki 
 app.get("/users/:id", (req, res) => {
   const userId = parseInt(req.params.id, 10);
 
