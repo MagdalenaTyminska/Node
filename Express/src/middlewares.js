@@ -35,8 +35,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/hi", (req, res) => {
-  return res.send("<h1 style='color:dodgerblue'>Hi!</h1>");
   console.log(new Date());
+  return res.send("<h1 style='color:dodgerblue'>Hi!</h1>");
 });
 
 app.use((req, res) => {
